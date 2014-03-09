@@ -22,6 +22,10 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6f3f6f8',GradientType=0 ); /* IE6-8 */
 }
 
+.navbar-brand img {
+    height: 19px;
+}
+
 .flag-brasil {
     background: url("../img/bandeira-brasil.jpg") no-repeat 0 -340px;
     position: relative;
@@ -87,4 +91,91 @@ body {
 .sub-news {
     font-size: 1.3em;
     color: #666;
+}
+
+.top-social {
+    text-align: right;
+    z-index: 3;
+}
+
+.top-social a {
+    margin-top: 1px;
+    padding: 4px 8px 2px;
+}
+
+.top-social a:hover {
+    background: #eee;
+}
+
+.top-social .color-facebook i {
+    color: #3B5998;
+}
+
+.top-social .color-facebook:hover {
+    background: #3B5998;
+}
+
+.top-social .color-twitter i {
+    color: #55ACEE;
+}
+
+.top-social .color-twitter:hover {
+    background: #55ACEE;
+}
+
+.top-social .color-instagram i {
+    color: #517fa4;
+}
+
+.top-social .color-instagram:hover {
+    background: #517fa4;
+}
+
+.top-social .color-youtube i {
+    color: #cc181e;
+}
+
+.top-social .color-youtube:hover {
+    background: #cc181e;
+}
+
+.top-social .color-flickr i {
+    color: #ff0084;
+}
+
+.top-social .color-flickr:hover {
+    background: #ff0084;
+}
+
+.top-social .color-soundcloud i {
+    color: #FE4C00;
+}
+
+.top-social .color-soundcloud:hover {
+    background: #FE4C00;
+}
+
+.top-social .color-google-plus i {
+    color: #DA2713;
+}
+
+.top-social .color-google-plus:hover {
+    background: #DA2713;
+}
+
+.top-social .color-pinterest i {
+    color: #CD1D1F;
+}
+
+.top-social .color-pinterest:hover {
+    background: #CD1D1F;
+}
+
+.top-social a:hover i {
+    color: #fff;
+}
+
+.top-social a i {
+    font-size: 1.2em;
+    color: #999;
 }
