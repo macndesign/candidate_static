@@ -84,7 +84,7 @@ body {
     font-size: 1.2em;
 }
 
-.navbar-nav .glyphicon {
+.nav .glyphicon {
     margin-right: .5em;
 }
 
@@ -163,6 +163,14 @@ body {
     background: #DA2713;
 }
 
+.top-social .color-linkedin i {
+    color: #1B86BC;
+}
+
+.top-social .color-linkedin:hover {
+    background: #1B86BC;
+}
+
 .top-social .color-pinterest i {
     color: #CD1D1F;
 }
@@ -178,4 +186,37 @@ body {
 .top-social a i {
     font-size: 1.2em;
     color: #999;
+}
+
+.news {
+    background: #fafafa;
+    border-radius: .5em;
+    margin: 20px 0 5px;
+    padding-bottom: 5px;
+}
+
+.copy-text {
+    padding-top: 10px;
+    line-height: 1.2em;
+}
+
+.part-text {
+    text-align: right;
+}
+
+.main-menu-footer a {
+    margin-right: 1em;
+}
+
+.main-menu-footer a:last-child {
+    margin-right: 0;
+}
+
+.main-menu-footer a span.glyphicon {
+    margin-right: .5em;
+}
+
+footer {
+    color: #999;
+    background: #f9fbfc;
 }
