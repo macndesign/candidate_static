@@ -24,3 +24,10 @@ Or auto in .git/config, in the [remote “origin”] section
 
     push = +refs/heads/master:refs/heads/gh-pages
     push = +refs/heads/master:refs/heads/master
+
+
+
+Unpublishing a project page
+---------------------------
+
+    git push origin --delete gh-pages
