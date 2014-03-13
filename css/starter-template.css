@@ -70,6 +70,14 @@ body {
 
 .candidate-content {
     position: relative;
+    /* shadow */
+    -webkit-box-shadow: 0 25px 20px -20px #aaa;
+    box-shadow: 0 25px 20px -20px #aaa;
+}
+
+.box-with-shadow {
+    -webkit-box-shadow: 0 25px 20px -20px #ddd;
+    box-shadow: 0 25px 20px -20px #ddd;
 }
 
 .candidate-desc {
