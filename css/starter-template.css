@@ -27,8 +27,36 @@ body {
 }
 
 .flag-brasil {
-    background: url("../img/bandeira-brasil.jpg") no-repeat 0 -340px;
     position: relative;
+    /* animation */
+    animation:flaganim 10s;
+    -webkit-animation:flaganim 10s;
+}
+
+@keyframes flaganim {
+    0% {
+        background-position:-200px 0;
+    }
+    50% {
+        background-position:-50px -500px;
+    }
+    100% {
+        background-position:0 -340px;
+    }
+}
+
+@-webkit-keyframes flaganim
+/* Safari */
+ {
+    0% {
+        background-position:-200px 0;
+    }
+    50% {
+        background-position:-50px -500px;
+    }
+    100% {
+        background-position:0 -340px;
+    }
 }
 
 .wrapper-candidate-main-photo {
